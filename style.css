@@ -1,0 +1,56 @@
+.id {
+  backdrop-filter: blur(100px);
+  background-color: rgba(136, 136, 136, 0.548);
+}
+
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* Fehér szövegszín */
+  z-index: 1;
+}
+
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #4525ffb9;
+  }
+  
+  #current-time {
+    font-size: 150px;
+    font-weight: bold;
+      backdrop-filter: blur(8px);
+      background-color: rgba(255, 255, 255, 0.055);
+      padding: 10px;
+      width: 1000px;
+    }
+    
+  
+  #date {
+    font-size: 30px;
+    font-weight: bold;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.096);
+    padding: 10px;
+  }
+  
+  #weather {
+    font-size: 18px;
+  }
+  button {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+  }
+  .onclick{
+font-size: 200px;
+
+  }
